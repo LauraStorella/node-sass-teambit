@@ -68,7 +68,7 @@ ul.list-unstyled {
 
 
 
-// -------------------- Btn-cta
+// Btn-cta
 .btn-cta {
   @include my-btn-cta;
 
@@ -79,6 +79,8 @@ ul.list-unstyled {
 }
 
 
+
+// -------------------- Flex
 .flex-fs {
   justify-content: flex-start;
 }

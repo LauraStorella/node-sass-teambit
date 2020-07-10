@@ -1,9 +1,15 @@
 // --------------- Mixin - Header
-@mixin my-btn-cta {
+@mixin my-btn-cta ($btn-cta-color) {
   padding: 10px;
   border-radius: 5px;
-  background-color: #5b70aa;
+  background-color: $btn-cta-color;
   color: darken($color: #5b70aa, $amount: 30%);
+}
+
+
+// Test
+.btn-cta.test {
+  @include my-btn-cta(red);
 }
 
 
@@ -15,3 +21,5 @@
   display: flex;
   padding: $info_box_padding; 
 }
+
+

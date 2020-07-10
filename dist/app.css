@@ -175,6 +175,7 @@ main .info-img img {
 }
 
 main .info-text {
+  width: 315px;
   margin: 0 60px;
 }
 
