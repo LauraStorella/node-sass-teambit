@@ -1,3 +1,15 @@
+.btn-cta.test {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: red;
+  color: #252e47;
+}
+
+.btn-cta.test:hover {
+  background-color: white;
+  border: 1px solid red;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -73,9 +85,20 @@ ul.list-unstyled li a {
   color: #252e47;
 }
 
+.btn-cta:hover {
+  background-color: white;
+  border: 1px solid #5b70aa;
+}
+
 .btn-cta .btn-img {
   width: 19px;
   vertical-align: middle;
+}
+
+a {
+  color: #304990;
+  text-decoration: none;
+  text-decoration: none;
 }
 
 .flex-fs {
@@ -114,9 +137,10 @@ header .container nav .nav-right .nav-logo img {
   width: 110px;
 }
 
-header .container nav .nav-left .nav-right a,
-header .container nav .nav-right .nav-right a {
+header .container nav .nav-left .nav-right > a,
+header .container nav .nav-right .nav-right > a {
   margin-right: 15px;
+  color: #594533;
 }
 
 main {

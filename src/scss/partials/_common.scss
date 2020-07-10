@@ -68,14 +68,22 @@ ul.list-unstyled {
 
 
 
-// Btn-cta
+// -------------------- Btn-cta
 .btn-cta {
-  @include my-btn-cta;
+  @include my-btn-cta($btn-cta-color);
 
   .btn-img {
     width: 19px;
     vertical-align: middle;
   }
+}
+
+
+
+// -------------------- Link
+a {
+  @include my-learn-link($secondary_color);
+  text-decoration: none;
 }
 
 

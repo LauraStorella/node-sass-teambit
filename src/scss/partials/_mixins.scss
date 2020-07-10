@@ -4,6 +4,11 @@
   border-radius: 5px;
   background-color: $btn-cta-color;
   color: darken($color: #5b70aa, $amount: 30%);
+
+  &:hover {
+    background-color: white;
+    border: 1px solid $btn-cta-color;
+  }
 }
 
 
@@ -23,3 +28,9 @@
 }
 
 
+
+// --------------- Mixin - Link
+@mixin my-learn-link($secondary_color) {
+  color: $secondary_color;
+  text-decoration: none;
+}
