@@ -1,0 +1,17 @@
+// --------------- Mixin - Header
+@mixin my-btn-cta {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #5b70aa;
+  color: darken($color: #5b70aa, $amount: 30%);
+}
+
+
+
+// --------------- Mixin - Main
+@mixin my-info-box {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  padding: $info_box_padding; 
+}

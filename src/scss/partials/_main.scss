@@ -11,11 +11,7 @@ main {
   }
 
   .info-box {
-    width: 85%;
-    margin: auto;
-    display: flex;
-    // align-items: flex-start;
-    padding: $info_box_padding;   
+    @include my-info-box;  
   }
 
   .info-box.bg-primary {
@@ -35,11 +31,12 @@ main {
       display: flex;
       justify-content: center;
       align-items: center;
-      flex: wrap;
+      flex-wrap: wrap;
     }
 
     .img-wrapper .info-img {
       margin: 20px 50px;
+      flex-basis: 250px;
 
       & > p {
         text-align: center;

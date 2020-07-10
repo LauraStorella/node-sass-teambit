@@ -56,6 +56,11 @@ ul.list-unstyled li a {
   text-decoration: none;
 }
 
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
 #main-wrapper {
   width: 100%;
   height: 100vh;
@@ -109,6 +114,11 @@ header .container nav .nav-right .nav-logo img {
   width: 110px;
 }
 
+header .container nav .nav-left .nav-right a,
+header .container nav .nav-right .nav-right a {
+  margin-right: 15px;
+}
+
 main {
   width: 100%;
   min-height: calc(100% - 70px);
@@ -147,11 +157,12 @@ main .info-box.bg-primary .img-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: wrap;
+  flex-wrap: wrap;
 }
 
 main .info-box.bg-primary .img-wrapper .info-img {
   margin: 20px 50px;
+  flex-basis: 250px;
 }
 
 main .info-box.bg-primary .img-wrapper .info-img > p {

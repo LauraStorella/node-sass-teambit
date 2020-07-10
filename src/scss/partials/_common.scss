@@ -53,6 +53,11 @@ ul.list-unstyled {
     text-decoration: none;
   }
 
+  .break {
+    flex-basis: 100%;
+    height: 0;
+  }
+
 
 
 // -------------------- Base Layout
@@ -65,10 +70,7 @@ ul.list-unstyled {
 
 // -------------------- Btn-cta
 .btn-cta {
-  padding: 10px;
-  border-radius: 5px;
-  background-color: #5b70aa;
-  color: darken($color: #5b70aa, $amount: 30%);
+  @include my-btn-cta;
 
   .btn-img {
     width: 19px;
